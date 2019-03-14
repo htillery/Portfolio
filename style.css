@@ -1,0 +1,98 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 1.5em;
+}
+
+.navbar a {
+    color: rgb(24, 191, 191);
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+}
+
+.left-nav a {
+    color: black;
+}
+
+.right-nav a {
+    margin-left: 20px;
+}
+
+#contact-button {
+    background-color: rgb(24, 191, 191);
+    padding: .5em 1em;
+    border-radius: 5em;
+    color: white;
+}
+
+.header {
+    background-color: lightpink;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 200;
+    font-size: 3.5em;
+    max-width: 650px;
+    
+    
+    
+}
+
+
+
+
+.skills-header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 200;
+}
+
+
+
+.boxsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skillbox {
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillbox span {
+    font-family: Montserrat, sans-serif;
+    font-weight: 200;
+    color: white;
+}
